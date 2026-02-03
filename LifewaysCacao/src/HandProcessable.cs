@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HarmonyLib;
 using Vintagestory;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
