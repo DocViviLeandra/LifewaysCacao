@@ -1,0 +1,145 @@
+{
+    "code":  "fruittree",
+    "class": "BlockDynamicTreeBranch",
+    "entityClass": "DynamicTreeBranch",
+    "variantgroups": [
+		{ "code": "type", "states": ["stem", "branch", "cutting"] },
+	],
+
+	"shape": {
+		"base": "game:block/plant/fruittree/cutting-ver",
+	},
+	"textures": {
+		"deadtree": { "base": "game:block/wood/bark/aged" }
+	},
+	"renderpass": "OpaqueNoCull",
+	"faceCullMode": "Callback",
+	"blockmaterial": "Wood",
+    
+    "attributes": {
+        "handbook": {
+            "groupBy": ["fruittree-*"]
+        },
+        "asphyxiating": false,
+        "foliageBlock": "lifewayscacao:fruittree-foliage",
+        "branchBlock": "lifewayscacao:fruittree-branch",
+        "worldgen": [
+            { "type": "cacao", "mintemp": 22, "maxtemp": 50, "minrain": 0.6, "maxrain": 1 }, // TODO: Get realistic values! These are stolen from vanilla mango
+        ],
+        "shapes": {
+            "stem": { "base": "game:block/plant/fruittree/branch-ver" },
+        
+            "cutting-ns": { "base": "game:block/plant/fruittree/cutting-hor", "rotateY": 90 },
+			"cutting-we": { "base": "game:block/plant/fruittree/cutting-hor" },
+			"cutting-ud": { "base": "game:block/plant/fruittree/cutting-ver" },
+			
+			"branch-n": { "base": "game:block/plant/fruittree/branch-hor", "rotateY": 90 },
+			"branch-e": { "base": "game:block/plant/fruittree/branch-hor" },
+			"branch-s": { "base": "game:block/plant/fruittree/branch-hor", "rotateY": -90 },
+			"branch-w": { "base": "game:block/plant/fruittree/branch-hor", "rotateY": 180 },
+			
+			"branch-n-end": { "base": "game:block/plant/fruittree/branch-hor-end", "rotateY": 90 },
+			"branch-e-end": { "base": "game:block/plant/fruittree/branch-hor-end" },
+			"branch-s-end": { "base": "game:block/plant/fruittree/branch-hor-end", "rotateY": -90 },
+			"branch-w-end": { "base": "game:block/plant/fruittree/branch-hor-end", "rotateY": 180 },
+			
+			"branch-ud": { "base": "game:block/plant/fruittree/branch-ver" },
+			"branch-ud-end": { "base": "game:block/plant/fruittree/branch-ver-end" },
+			
+			"foliage-ver": { "base": "game:block/plant/fruittree/leaves-ver" },
+			"foliage-hor-n": { "base": "game:block/plant/fruittree/leaves-hor", "rotateY": 90 },
+			"foliage-hor-e": { "base": "game:block/plant/fruittree/leaves-hor", "rotateY": 0 },
+			"foliage-hor-s": { "base": "game:block/plant/fruittree/leaves-hor", "rotateY": 270 },
+			"foliage-hor-w": { "base": "game:block/plant/fruittree/leaves-hor", "rotateY": 180 },
+
+			"fruit-cacao": { "base": "lifewayscacao:block/plant/fruittree/fruit-cacao" },
+        },
+		"treeFellingGroupCode": "fruittree",
+		"treeFellingGroupSpreadIndexByType": {
+			"*-stem": 3,
+			"*-branch": 2,
+			"*-cutting": 2
+		},
+		"fruittreeProperties": {
+			"cacao": {
+				"cycleType": "Evergreen",
+				"blossomParticles": false,
+				"floweringDays": { "avg": 4.5, "var": 1.5 },
+				"fruitingDays": { "dist": "strongerinvexp", "avg": 50, "var": 12 },
+				"ripeDays": { "dist": "strongerinvexp", "avg": 10, "var": 10 },
+				"growthStepDays": { "dist": "verynarrowgaussian", "avg": 5, "var": 1},
+				"fruitStacks": [
+					{ "type": "item", "code": "lifewayscacao:cacaopod-whole", "quantity": { "dist": "strongerinvexp", "avg": 6, "var": 4 } }
+				],
+				"looseLeavesBelowTemp": { "dist": "strongerinvexp", "avg": 13, "var": -4 },
+				"blossomAtYearRel": { "dist": "strongerinvexp", "avg": 0.3, "var": 0.1 },
+				"dieBelowTemp": { "dist": "strongerinvexp", "avg": 10, "var": -4},
+				"cuttingRootingChance": 0.4,
+				"cuttingGraftChance": 0.6
+			}
+		}
+    },
+
+    "creativeinventory": { },
+	"creativeinventoryStacksByType": {
+		"*-branch": [
+			{
+				"tabs": [ "general", "flora" ],
+				"stacks": [
+					{ "type": "block", "code": "fruittree-cutting", "attributes": { "type": "cacao" } },
+				]
+			}
+		],
+	},
+
+	"requiredMiningTierByType": {
+		"*-cutting": 0,
+		"*": 1,
+	},
+	"climateColorMap": "climatePlantTint",
+	"seasonColorMap": "seasonalFoliage",
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"sideao": {
+		"all": true
+	},
+	"emitSideAo": {
+		"all": false
+	},
+	"snowCoverage": true,
+	"replaceable": 4000,
+	"lightAbsorption": 1,
+	"resistance": 5,
+	"collisionbox": null,
+	"dropsByType": {
+		"*-stem": [ { "type": "item", "code": "game:firewood", "quantity": { "avg": 1} } ],
+		"*-branch": [ { "type": "block", "code": "lifewayscacao:fruittree-cutting", "quantity": { "avg": 1 } } ],
+		"*-cutting": [ { "type": "block", "code": "lifewayscacao:fruittree-cutting", "quantity": { "avg": 1 } } ]
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"byTool": {
+			"Axe": { "hit": "game:block/chop", "break": "game:block/planks" }
+		}
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	},
+	"frostable": true,
+	"materialDensity": 300,
+	"collisionSelectionBox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 1, "z2": 0.8125 },
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 90, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.65 },
+		"scale": 2.3
+	}
+}

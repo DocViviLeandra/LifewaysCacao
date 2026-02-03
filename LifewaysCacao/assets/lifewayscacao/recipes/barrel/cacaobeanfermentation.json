@@ -1,0 +1,19 @@
+[
+    {
+        "code": "cacaobeanfermentation-unseparated",
+        "sealHours": 168,
+        "ingredients": [
+            { "type": "item", "code": "cacaobeans-pulpy", "quantity": 1}
+        ],
+        "output": { "type": "item", "code": "cacaobeans-fermented", "stackSize": 1}
+    },
+    {
+        "code": "cacaobeanfermentation-separated",
+        "sealHours": 168,
+        "ingredients": [
+            { "type": "item", "code": "cacaomucilage-separated", "quantity": 1},
+            { "type": "item", "code": "cacaobeans-raw", "quantity": 4 }
+        ],
+        "output": { "type": "item", "code": "cacaobeans-fermented", "stacksize": 4}
+    }
+]

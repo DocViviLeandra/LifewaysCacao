@@ -1,0 +1,15 @@
+{
+    "enabled": false,
+    "code": "cacaobeans",
+    "ingredientPattern": "C",
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "ingredients": {
+        "C": {
+            "type": "item",
+            "code": "cacaopod-*",
+        }
+    },
+    "output": { "type": "item", "code": "cacaobeans-pulpy" }
+}

@@ -1,0 +1,28 @@
+{
+    "enabled": false,
+    "code": "chocolateelixir",
+    "perishableProps": {
+        "freshHours": { "avg": 168 },
+		"transitionHours": { "avg": 48 },
+		"transitionedStack": { "type": "item", "code": "game:rot" },
+		"transitionRatio": 0.005
+    },
+    "shape": { "base": "block/food/meal/plain" },
+    "ingredients": [
+        {
+            "code": "water",
+            "validStacks": [ { "type": "item", "code": "game:waterportion", } ],
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "portionSizeLitres": 0.2
+        },
+        {
+            "code": "cacaochunks",
+            "validStacks": [ { "type": "item", "code": "cacaochunks-*", "shapeElement": "contents"} ],
+            "minQuantity": 1,
+            "maxQuantity": 1,
+        }
+    ],
+    "cooksInto": { "type": "item", "code": "chocolateelixirportion-pure", "stackSize": 1},
+    "IsFood": true,
+}

@@ -1,0 +1,67 @@
+﻿[
+    // Cacao chunk textures for meals
+    {
+        "file": "game:blocktypes/clay/fired/pot",
+        "op": "AddMerge",
+        "path": "/textures/cacao",
+        "value": { "base": "lifewayscacao:item/food/cacaochunks/fill-natural-pure-grainy" }
+    },
+    {
+        "file": "game:blocktypes/clay/fired/pot",
+        "op": "AddMerge",
+        "path": "/attributesByType/claypot-blue-cooked/textureMapping/cacaochunks-natural-pure-grainy",
+        "value": [ "topping", "cacao" ]
+    },
+    
+    // Cacao bean textures for meals
+    {
+        "file": "game:blocktypes/clay/fired/pot",
+        "op": "AddMerge",
+        "path": "/textures/cacaobeans-raw",
+        "value": { "base": "lifewayscacao:item/food/cacaobean-raw" }
+    },
+    {
+        "file": "game:blocktypes/clay/fired/pot",
+        "op": "AddMerge",
+        "path": "/attributesByType/claypot-blue-cooked/textureMapping/cacaobeans-raw",
+        "value": [ "vegetable", "cacaobeans-raw" ]
+    },
+    {
+        "file": "game:blocktypes/clay/fired/pot",
+        "op": "AddMerge",
+        "path": "/textures/cacaobeans-fermented",
+        "value": { "base": "lifewayscacao:item/food/cacaobean-fermented" }
+    },
+    {
+        "file": "game:blocktypes/clay/fired/pot",
+        "op": "AddMerge",
+        "path": "/attributesByType/claypot-blue-cooked/textureMapping/cacaobeans-fermented",
+        "value": [ "vegetable", "cacaobeans-fermented" ]
+    },
+    {
+        "file": "game:blocktypes/clay/fired/pot",
+        "op": "AddMerge",
+        "path": "/textures/cacaobeans-dried",
+        "value": { "base": "lifewayscacao:item/food/cacaobean-dried" }
+    },
+    {
+        "file": "game:blocktypes/clay/fired/pot",
+        "op": "AddMerge",
+        "path": "/attributesByType/claypot-blue-cooked/textureMapping/cacaobeans-dried",
+        "value": [ "vegetable", "cacaobeans-dried" ]
+    },
+
+    // Cacao mucilage textures for meals
+    {
+        "file": "game:blocktypes/clay/fired/pot",
+        "op": "AddMerge",
+        "path": "/textures/cacaomucilage",
+        "value": { "base": "lifewayscacao:item/food/fill-cacao" }
+    },
+    {
+        "file": "game:blocktypes/clay/fired/pot",
+        "op": "AddMerge",
+        "path": "/attributesByType/claypot-blue-cooked/textureMapping/cacaomucilage-separated",
+        "value": [ "fruit", "cacaomucilage" ]
+    },
+]

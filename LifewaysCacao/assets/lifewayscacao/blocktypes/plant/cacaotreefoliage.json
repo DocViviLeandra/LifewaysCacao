@@ -1,0 +1,90 @@
+{
+    "code": "fruittree",
+    "class": "BlockDynamicTreeFoliage",
+    "entityClass": "DynamicTreeFoliage",
+    "variantgroups": [
+        { "code": "type", "states": ["foliage"] },
+    ],
+
+    "shape": {
+		"base": "game:block/plant/fruittree/leaves-ver",
+	},
+	"textures": {
+		"deadtree": { "base": "game:block/wood/bark/aged" }
+	},
+    "renderpass": "OpaqueNoCull",
+    "faceCullMode": "Callback",
+    "blockmaterial": "Leaves",
+
+    "attributes": {
+        "handbook": {
+            "groupBy": ["fruittree-leaves-*"]
+        },
+        "foliageBlock": "lifewayscacao:fruittree-foliage",
+        "branchBlock": "lifewayscacao:fruittree-branch",
+        "treeFellingGroupCode": "fruittree",
+        "foliageProperties": {
+            "base": {
+                "textures": {
+                    "smallleaves-flowering": { "base": "leaves" },
+					"smallleaves-fruiting": { "base": "leaves" },
+					"smallleaves-ripe": { "base": "leaves" },
+					"smallleaves-plain": { "base": "leaves" },
+					
+					"largeleaves-flowering": { "base": "largeleaves" },
+					"largeleaves-fruiting": { "base": "largeleaves" },
+					"largeleaves-ripe": { "base": "largeleaves" },
+					"largeleaves-plain": { "base": "largeleaves" },
+					
+					"fruit-fruiting": { "base": "fruiting" },
+					"fruit-ripe": { "base": "ripe" },
+					
+					"blossom": { "base": "blossom" },
+					"largeblossom": { "base": "largeblossom" },
+					
+					"bark": { "base": "bark" },
+					"treetrunk": { "base": "treetrunk" }
+                },
+                "leafParticlesTexture": { "base":  "leaves" },
+                "blossomParticlesTexture": { "base": "blossom" },
+            },
+            "cacao": {
+                "texturesBasePath": "lifewayscacao:block/plant/fruittree/cacao/", // TODO: Get own textures!
+                "seasonColorMap":  "tropicalKapok",
+            }
+        }
+    },
+
+    "creativeinventory": { "general": [""], "flora": [""] },
+    "sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"sideao": {
+		"all": true
+	},
+	"emitSideAo": {
+		"all": false
+	},
+    "snowCoverage": true,
+	"replaceable": 4000,
+	"lightAbsorption": 1,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"drops": [],
+	"sounds": {
+		"break": "game:block/plant",
+		"place": "game:block/plant",
+		"hit": "game:block/plant",
+		"walk": "game:walk/grass",
+		"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	},
+	"materialDensity": 300,
+	"frostable": true
+}

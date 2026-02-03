@@ -1,0 +1,244 @@
+{
+	"editor": {
+		"collapsedPaths": ",Root/origin/podD,Root/origin/podE,Root/origin/podW",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"cacao": [16,16]
+	},
+	"textures": {
+		"cacao": "lifewayscacao:item/resource/cacaopod"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "podW",
+					"from": [ -1.25, 0.0, -0.5 ],
+					"to": [ -0.75, 1.0, 2.0 ],
+					"rotationOrigin": [ -0.25, 0.5, 1.0 ],
+					"faces": {
+						"north": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+						"east": { "texture": "#cacao", "uv": [ 0.0, 0.0, 2.5, 1.0 ], "enabled": false },
+						"south": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+						"west": { "texture": "#cacao", "uv": [ 1.5, 3.0, 2.5, 5.5 ], "rotation": 90 },
+						"up": { "texture": "#cacao", "uv": [ 4.0, 3.0, 4.5, 5.5 ] },
+						"down": { "texture": "#cacao", "uv": [ 0.0, 3.0, 0.5, 5.5 ] }
+					},
+					"children": [
+						{
+							"name": "podWN",
+							"from": [ 0.0, 0.0, -2.0 ],
+							"to": [ 0.5, 1.0, 0.0 ],
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationY": -14.5,
+							"faces": {
+								"north": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+								"east": { "texture": "#cacao", "uv": [ 0.0, 0.0, 2.0, 1.0 ], "enabled": false },
+								"south": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+								"west": { "texture": "#cacao", "uv": [ 1.5, 1.5, 2.5, 3.5 ], "rotation": 90 },
+								"up": { "texture": "#cacao", "uv": [ 4.0, 1.5, 4.5, 3.5 ] },
+								"down": { "texture": "#cacao", "uv": [ 0.0, 1.5, 0.5, 3.5 ] }
+							}
+						},
+						{
+							"name": "podWS",
+							"from": [ 0.0, 0.0, 2.5 ],
+							"to": [ 0.5, 1.0, 3.21 ],
+							"rotationOrigin": [ 0.0, 0.0, 2.5 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+								"east": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+								"south": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+								"west": { "texture": "#cacao", "uv": [ 1.5, 5.0, 2.0, 6.0 ] },
+								"up": { "texture": "#cacao", "uv": [ 4.0, 5.0, 4.5, 5.5 ] },
+								"down": { "texture": "#cacao", "uv": [ 0.0, 5.0, 0.5, 5.5 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "podE",
+					"from": [ 0.75, 0.0, -0.5 ],
+					"to": [ 1.25, 1.0, 2.0 ],
+					"rotationOrigin": [ 0.75, 0.5, 1.0 ],
+					"faces": {
+						"north": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+						"east": { "texture": "#cacao", "uv": [ 2.0, 3.5, 3.0, 6.0 ], "rotation": 270 },
+						"south": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+						"west": { "texture": "#cacao", "uv": [ 0.0, 0.0, 2.5, 1.0 ], "enabled": false },
+						"up": { "texture": "#cacao", "uv": [ 4.0, 1.5, 4.5, 4.0 ] },
+						"down": { "texture": "#cacao", "uv": [ 0.0, 1.5, 0.5, 4.0 ] }
+					},
+					"children": [
+						{
+							"name": "podEN",
+							"from": [ 0.0, 0.0, -2.0 ],
+							"to": [ 0.5, 1.0, 0.0 ],
+							"rotationOrigin": [ 0.5, 0.0, 0.0 ],
+							"rotationY": 14.5,
+							"faces": {
+								"north": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+								"east": { "texture": "#cacao", "uv": [ 2.0, 0.0, 3.0, 2.0 ], "rotation": 90 },
+								"south": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+								"west": { "texture": "#cacao", "uv": [ 0.0, 0.0, 2.0, 1.0 ], "enabled": false },
+								"up": { "texture": "#cacao", "uv": [ 4.0, 0.0, 4.5, 2.0 ] },
+								"down": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 2.0 ] }
+							}
+						},
+						{
+							"name": "podES",
+							"from": [ 0.0, 0.0, 2.5 ],
+							"to": [ 0.5, 1.0, 3.21 ],
+							"rotationOrigin": [ 0.5, 0.0, 2.5 ],
+							"rotationY": -45.0,
+							"faces": {
+								"north": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+								"east": { "texture": "#cacao", "uv": [ 2.5, 5.5, 3.0, 6.5 ] },
+								"south": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+								"west": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+								"up": { "texture": "#cacao", "uv": [ 4.0, 3.5, 4.5, 4.0 ] },
+								"down": { "texture": "#cacao", "uv": [ 0.0, 3.5, 0.5, 4.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "podU",
+					"from": [ -0.75, 1.0, -0.5 ],
+					"to": [ 0.75, 1.5, 2.0 ],
+					"rotationOrigin": [ -0.25, 1.0, 1.0 ],
+					"faces": {
+						"north": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+						"east": { "texture": "#cacao", "uv": [ 4.0, 1.5, 4.5, 4.0 ], "rotation": 90 },
+						"south": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+						"west": { "texture": "#cacao", "uv": [ 0.0, 1.5, 2.5, 2.0 ], "rotation": 270 },
+						"up": { "texture": "#cacao", "uv": [ 1.5, 2.0, 3.0, 4.5 ] },
+						"down": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 2.5 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "podUN",
+							"from": [ 0.0, 0.0, -2.0 ],
+							"to": [ 1.5, 0.5, 0.0 ],
+							"rotationOrigin": [ 0.5, 0.5, 0.0 ],
+							"rotationX": -14.5,
+							"faces": {
+								"north": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+								"east": { "texture": "#cacao", "uv": [ 4.0, 0.0, 4.5, 2.0 ], "rotation": 90 },
+								"south": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+								"west": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "rotation": 90 },
+								"up": { "texture": "#cacao", "uv": [ 1.5, 0.0, 3.0, 2.0 ] },
+								"down": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 2.0 ], "enabled": false }
+							}
+						},
+						{
+							"name": "podUS",
+							"from": [ 0.0, -0.2, 2.5 ],
+							"to": [ 1.5, 0.5, 3.21 ],
+							"rotationOrigin": [ 0.5, 0.5, 2.5 ],
+							"rotationX": 45.0,
+							"faces": {
+								"north": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+								"east": { "texture": "#cacao", "uv": [ 4.0, 3.5, 4.5, 4.0 ], "rotation": 90 },
+								"south": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+								"west": { "texture": "#cacao", "uv": [ 0.0, 3.5, 0.5, 4.0 ], "rotation": 90 },
+								"up": { "texture": "#cacao", "uv": [ 1.5, 5.5, 3.0, 6.0 ] },
+								"down": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "podD",
+					"from": [ -0.75, -0.5, -0.5 ],
+					"to": [ 0.75, 0.0, 2.0 ],
+					"rotationOrigin": [ -0.25, 0.5, 1.0 ],
+					"faces": {
+						"north": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+						"east": { "texture": "#cacao", "uv": [ 4.0, 4.0, 4.5, 6.5 ], "rotation": 90 },
+						"south": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+						"west": { "texture": "#cacao", "uv": [ 0.0, 4.0, 0.5, 6.5 ], "rotation": 270 },
+						"up": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 2.5 ], "enabled": false },
+						"down": { "texture": "#cacao", "uv": [ 1.5, 4.0, 3.0, 6.5 ] }
+					},
+					"children": [
+						{
+							"name": "podDN",
+							"from": [ 0.0, 0.0, -2.0 ],
+							"to": [ 1.5, 0.5, 0.0 ],
+							"rotationOrigin": [ 0.5, 0.0, 0.0 ],
+							"rotationX": 14.5,
+							"faces": {
+								"north": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+								"east": { "texture": "#cacao", "uv": [ 4.0, 2.5, 4.5, 4.5 ], "rotation": 90 },
+								"south": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+								"west": { "texture": "#cacao", "uv": [ 0.0, 2.5, 0.5, 4.5 ], "rotation": 270 },
+								"up": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 2.0 ], "enabled": false },
+								"down": { "texture": "#cacao", "uv": [ 1.5, 2.0, 3.0, 4.0 ] }
+							}
+						},
+						{
+							"name": "podDS",
+							"from": [ 0.0, 0.0, 2.5 ],
+							"to": [ 1.5, 0.7, 3.21 ],
+							"rotationOrigin": [ 0.5, 0.0, 2.5 ],
+							"rotationX": -45.0,
+							"faces": {
+								"north": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+								"east": { "texture": "#cacao", "uv": [ 4.0, 6.0, 4.5, 6.5 ] },
+								"south": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+								"west": { "texture": "#cacao", "uv": [ 0.0, 6.0, 0.5, 6.5 ] },
+								"up": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+								"down": { "texture": "#cacao", "uv": [ 1.5, 6.0, 3.0, 6.5 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "podS",
+					"from": [ -0.75, 0.0, 2.5025 ],
+					"to": [ 0.75, 1.0, 2.5025 ],
+					"rotationOrigin": [ 0.0, 0.5, 2.5 ],
+					"faces": {
+						"north": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 1.0 ], "enabled": false },
+						"east": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+						"south": { "texture": "#cacao", "uv": [ 0.0, 3.5, 1.0, 5.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+						"up": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "podN",
+					"from": [ -0.75, 0.0, -2.435 ],
+					"to": [ 0.75, 1.0, -2.435 ],
+					"rotationOrigin": [ 0.0, 0.5, -2.4 ],
+					"faces": {
+						"north": { "texture": "#cacao", "uv": [ 2.0, 5.0, 3.0, 6.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+						"south": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 1.0 ], "windMode": [-1,-1,-1,-1], "enabled": false },
+						"west": { "texture": "#cacao", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "enabled": false },
+						"up": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#cacao", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

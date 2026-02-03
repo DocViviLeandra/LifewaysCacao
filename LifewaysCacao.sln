@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifewaysCacao", "LifewaysCacao\LifewaysCacao.csproj", "{84E8AAA6-BBD2-44D8-9148-1BF14A965546}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "ZZCakeBuild\CakeBuild.csproj", "{C39F46D2-E6CC-41E4-A706-74BB0E65517B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84E8AAA6-BBD2-44D8-9148-1BF14A965546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E8AAA6-BBD2-44D8-9148-1BF14A965546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E8AAA6-BBD2-44D8-9148-1BF14A965546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E8AAA6-BBD2-44D8-9148-1BF14A965546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C39F46D2-E6CC-41E4-A706-74BB0E65517B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39F46D2-E6CC-41E4-A706-74BB0E65517B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39F46D2-E6CC-41E4-A706-74BB0E65517B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39F46D2-E6CC-41E4-A706-74BB0E65517B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE110684-09BA-43C5-A4C6-5EDC9D2740AB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+[
+    {
+        "file": "game:recipes/cooking/porridge",
+        "op": "AddMerge",
+        "path": "/ingredients/1/validStacks/-",
+        "value": { "type": "item", "code": "lifewayscacao:cacaomucilage-*", "shapeElement": "bowl/fruit 1/*" }
+    },
+    {
+        "file": "game:recipes/cooking/porridge",
+        "op": "AddMerge",
+        "path": "/ingredients/2/validStacks/-",
+        "value": { "type": "item", "code": "lifewayscacao:cacaomucilage-*", "shapeElement": "bowl/fruit 2/*" }
+    },
+    {
+        "file": "game:recipes/cooking/porridge",
+        "op": "AddMerge",
+        "path": "/ingredients/5/validStacks/-",
+        "value": { "type": "item", "code": "lifewayscacao:cacaochunks-*", "shapeElement": "bowl/topping/*" }
+    },
+]

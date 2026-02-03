@@ -1,0 +1,22 @@
+[
+    {
+        "file": "game:recipes/cooking/scrambledeggs",
+        "op": "AddEach",
+        "path": "/ingredients/5/validStacks/-",
+        "value": [
+            { "type": "item", "code": "lifewayscacao:cacaobeans-raw", "shapeElement": "bowl/vegetable2/*" },
+            { "type": "item", "code": "lifewayscacao:cacaobeans-fermented", "shapeElement": "bowl/vegetable2/*"},
+            { "type": "item", "code": "lifewayscacao:cacaobeans-dried", "shapeElement": "bowl/vegetable2/"}
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/scrambledeggs",
+        "op": "AddEach",
+        "path": "/ingredients/6/validStacks/-",
+        "value": [
+            { "type": "item", "code": "lifewayscacao:cacaobeans-raw", "shapeElement": "bowl/vegetable3/*" },
+            { "type": "item", "code": "lifewayscacao:cacaobeans-fermented", "shapeElement": "bowl/vegetable3/*"},
+            { "type": "item", "code": "lifewayscacao:cacaobeans-dried", "shapeElement": "bowl/vegetable3/"}
+        ]
+    },
+]

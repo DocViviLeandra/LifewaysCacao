@@ -1,0 +1,8 @@
+[
+    {
+        "file": "game:recipes/cooking/jam",
+        "op": "AddMerge",
+        "path": "/ingredients/1/validStacks/-",
+        "value": { "type": "item", "code": "lifewayscacao:cacaomucilage-*", "shapeElement": "bowl/fruit" }
+    }
+]

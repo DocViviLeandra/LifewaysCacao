@@ -1,0 +1,138 @@
+{
+    "code": "cacaobeans",
+    // "class": "lifewayscacao.cacaobeans",
+    "variantgroups": [
+        { "code": "type", "states": [ "pulpy", "raw", "fermented", "dried" ] }
+    ],
+
+    "shapebytype": {
+        "*-pulpy": { "base": "item/food/cacaobeans-pulpy"},
+        "*": { "base": "item/food/cacaobeans" }
+    },
+
+    "texturebytype": {
+        "*": { "base": "lifewayscacao:item/food/cacaobean-{type}" },
+    },
+
+    "attributes": {
+        "foodTags": [ "cacaobean", "protein" ],
+        "handbook": {
+			"groupBy": ["cacaobeans-*"],
+            "extraSections": [
+                {
+                    "title": "lifewayscacao:item-handbooktitle-cacaobeans-extracting",
+                    "text": "lifewayscacao:item-handbooktext-cacaobeans-extracting"
+                },
+                {
+                    "title": "lifewayscacao:item-handbooktitle-cacaobeans-eating",
+                    "text": "lifewayscacao:item-handbooktext-cacaobeans-eating"
+                },
+                {
+                    "title": "lifewayscacao:item-handbooktitle-cacaobeans-fermenting",
+                    "text": "lifewayscacao:item-handbooktext-cacaobeans-fermenting"
+                },
+            ]
+        },
+        "nutritionPropsWhenInMealByType": {
+            "*-raw": {"satiety": 60, "foodcategory": "Protein"},
+            "*": {"satiety": 120, "foodcategory": "Protein"}
+        },
+        "inPiePropertiesByType": {
+            "*-fermented": { "texture": "game:block/food/pie/fill-walnut", "partType": "Filling", "allowMixing": false}, // TODO: Give own texture
+            "*-dried": { "texture": "game:block/food/pie/fill-walnut", "partType": "Filling", "allowMixing": false }, // TODO: Give own texture
+        },
+    },
+
+    "creativeinventory": { "general": ["*"], "items": ["*"] },
+    "maxstacksize": 64,
+
+    "nutritionPropsByType": {
+        "*-pulpy": {"satiety": 60, "foodcategory": "Fruit", "eatenStack": {"type": "item", "code": "cacaobeans-raw", "stackSize": 1}},
+        "*-raw": {"satiety": 60, "foodcategory": "Protein"},
+        "*": {"satiety": 120, "foodcategory": "Protein"}
+    },
+
+    "grindingPropsByType": {
+        "*-dried": {
+		    "groundStack": { "type": "item", "code": "cacaochunks-natural-pure-grainy", "stacksize": 1}
+        }
+	},
+
+    "transitionablePropsByType": {
+        "*-pulpy": [{
+            "type": "Perish",
+            "freshHours": { "avg": 120 },
+            "transitionhours": { "avg": 12 },
+            "transitionedStack": { "type": "item", "code": "game:rot" },
+            "transitionRatio": 0.25
+        }],
+        "*-raw": [{
+            "type": "Perish",
+            "freshHours": { "avg": 120 },
+            "transitionhours": { "avg": 12 },
+            "transitionedStack": { "type": "item", "code": "game:rot" },
+            "transitionRatio": 0.25
+        }],
+        "*-fermented": [
+            {
+                "type": "Perish",
+                "freshHours": { "avg": 336 },
+                "transitionhours": { "avg": 48 },
+                "transitionedStack": { "type": "item", "code": "game:rot" },
+                "transitionRatio": 0.25
+            },
+            {
+                "type": "Dry",
+                "freshHours": { "avg": 0 },
+                "transitionHours": { "avg": 48 },
+                "transitionedStack": { "type": "item", "code": "cacaobeans-dried"},
+                "transitionRatio": 1
+            }
+        ],
+        "*-dried": [{
+            "type": "Perish",
+            "freshHours": { "avg": 2160 },
+            "transitionhours": { "avg": 224 },
+            "transitionedStack": { "type": "item", "code": "game:rot" },
+            "transitionRatio": 0.25
+        }]
+    },
+
+    "combustiblePropsByType": {
+		"cacaobeans-fermented": {
+			"meltingPoint": 130,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "cook",
+			"smeltedStack": { "type": "item", "code": "cacaobeans-dried" },
+			"requiresContainer": false
+		}
+	},
+
+    guiTransform: {
+		translation: { x: 3, y: 0, z: 0 },
+		rotation: { x: -37, y: 35, z: 180 },
+		origin: { x: 0.45, y: 0, z: 0.4 },
+		scaleXyz: { x: -2.52, y: 2.52, z: 2.52 }
+	},
+    tpHandTransform: {
+		translation: { x: -1.5, y: 0.1, z: -0.9 },
+		rotation: { x: -51, y: 12, z: -109 },
+		origin: { x: 0.45, y: 0, z: 0.4 },
+		scale: 0.36
+	},
+    groundTransform: {
+		translation: { x: 0, y: 0.175, z: 0 },
+		rotation: { x: 1, y: -1, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 1.78
+	},
+
+
+    "heldRightReadyAnimationByType": {
+		"*": "holdbothhands"
+	},
+	"heldTpIdleAnimationByType": {
+		"*": "holdbothhands"
+    }
+}

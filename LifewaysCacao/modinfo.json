@@ -1,0 +1,14 @@
+{
+    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+    "type": "Code",
+    "modid": "lifewayscacao",
+    "name": "Lifeways: Cacao",
+    "authors": [
+        "DocViviVT"
+    ],
+    "description": "Adds realistic cacao-growing and chocolate production to Vintage Story!",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": "1.21.0"
+    }
+}

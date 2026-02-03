@@ -1,0 +1,15 @@
+{
+    "code": "cacaomucilage",
+    "ingredientPattern": "C",
+    "width": 1,
+    "height": 1,
+    "shapeless": true,
+    "ingredients": {
+        "C": {
+            "type": "item",
+            "code": "cacaobeans-pulpy",
+            "returnedStack": { "type": "item", "code": "cacaobeans-raw"}
+        }
+    },
+    "output": { "type": "item", "code": "cacaomucilage-separated" }
+}

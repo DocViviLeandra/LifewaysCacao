@@ -1,0 +1,8 @@
+{
+    "code": "cider",
+	"sealHours": 168,
+	"ingredients": [
+		{ "type": "item", "code": "juiceportion-*",  "name": "fruit", "litres": 0.01 }
+	],
+	"output": { "type": "item", "code": "ciderportion-{fruit}", "litres": 0.01 }
+}
