@@ -1,0 +1,16 @@
+{
+    "code": "chocolatepot",
+    "variantgroups": [
+        { "code": "color", "states": ["blue", "fire", "black", "brown", "cream", "gray", "orange", "red", "tan" ] }
+    ],
+
+    "shape": { "base":  "block/clay/chocolatepot" },
+    "textures": {
+        "transparent": { "base": "game:block/transparent" },
+		"ceramic": { "base": "game:block/clay/pot/{color}" },
+        "handle": { "base": "game:item/tool/material/ebony" },
+    },
+
+    "creativeinventory": { "general": ["*"], "decorative": ["*"] },
+    "maxstacksize": 64,
+}

@@ -22,11 +22,11 @@
 		"eatHealthEffectTicks": 10,
         "inPiePropertiesByType": {
             "*": { "texture": "item/food/cacaochunks/fill-natural-pure-grainy", "partType": "Filling", "allowMixing": false }
-        }
+        },
     },
 
     "creativeinventory": { "general": ["*"], "items": ["*"] },
-    "maxstacksize": 64,
+    "maxstacksize": 128,
 
     "nutritionProps": { "satiety": 120, "health": 1, "foodcategory": "Protein" },
 

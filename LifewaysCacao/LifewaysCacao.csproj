@@ -62,6 +62,11 @@
   </Content>
 </ItemGroup>
 
+<ItemGroup>
+  <Folder Include="assets\lifewayscacao\recipes\cooking\cacaoliquid\" />
+  <Folder Include="assets\lifewayscacao\shapes\block\food\cacaotablet\" />
+</ItemGroup>
+
 <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
 
 </Project>

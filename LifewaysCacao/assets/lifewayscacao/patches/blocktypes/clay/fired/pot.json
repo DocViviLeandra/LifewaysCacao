@@ -1,5 +1,5 @@
 ﻿[
-    // Cacao chunk textures for meals
+    // Cacao nib textures for meals
     {
         "file": "game:blocktypes/clay/fired/pot",
         "op": "AddMerge",
@@ -11,6 +11,20 @@
         "op": "AddMerge",
         "path": "/attributesByType/claypot-blue-cooked/textureMapping/cacaochunks-natural-pure-grainy",
         "value": [ "topping", "cacao" ]
+    },
+
+    // Chocolate textures for meals
+    {
+        "file": "game:blocktypes/clay/fired/pot",
+        "op": "AddMerge",
+        "path": "/textures/chocolate-pure",
+        "value": { "base": "lifewayscacao:block/food/cacao/fill-natural-pure-grainy" }
+    },
+    {
+        "file": "game:blocktypes/clay/fired/pot",
+        "op": "AddMerge",
+        "path": "/attributesByType/claypot-blue-cooked/textureMapping/cacaotablet-natural-pure-grainy",
+        "value": [ "topping", "chocolate-pure" ]
     },
     
     // Cacao bean textures for meals

@@ -1,0 +1,93 @@
+{
+	"enabled": false,
+    "code": "cacaobutter-liquid",
+    "class": "ItemLiquidPortion",
+    "variantgroups": [
+        { "code": "state", "states": [ "hot", "cold" ] }
+    ],
+    "matterState": "liquid",
+
+    "shape": { "base": "game:item/liquid" },
+    "textureByType": {
+        "*": { "base": "game:block/food/dairy/curdledmilk" }, // TODO: Give own texture!
+    },
+
+    "attributes": {
+        "handbook": {
+            "ignoreCreativeInvStacks":  true,
+            "groupBy": "cacaobutter-*",
+        },
+        "waterTightContainerPropsByType": {
+			"*-hot": {
+				"nutritionPropsPerLitre": {
+					"satiety": 60, 
+					"foodcategory": "Protein"
+				},
+				"containable": true,
+				"itemsPerLitre": 100,
+				"texture": { 
+					"base": "game:block/food/dairy/curdledmilk", // TODO: Give own texture!
+					"alphaByType": {
+						"*" : 175
+					}
+				},
+				"isOpaqueByType": {
+					"*": false
+				},
+				"allowSpill": true,
+				"whenSpilled": { 
+					"action": "DropContents",
+					"stack": { "type": "item", "code": "lifewayscacao:cacaobutter-liquid-hot" } 
+				}
+			},
+			"*-cold": {
+				"containable": true,
+				"itemsPerLitre": 10,
+				"texture": { 
+					"base": "game:block/food/dairy/curdledmilk", // TODO: Give own texture!
+					"alphaByType": {
+						"*" : 255
+					}
+				},
+				"isOpaqueByType": {
+					"*": true
+				},
+				"allowSpill": true,
+				"whenSpilled": { 
+					"action": "DropContents",
+					"stack": { "type": "item", "code": "lifewayscacao:cacaobutter-solid" } 
+				}
+			}
+        }
+    },
+
+	"creativeinventoryStacks": [ { "tabs": ["general", "liquids"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "lifewayscacao:cacaobutter-liquid-{state}", "makefull": true } ] } } ] } ],
+	"maxstacksize": 5000,
+	"materialDensity": 1300,
+
+	"transitionablePropsByType": {
+        "*-hot": [
+			{
+				"type": "Harden",
+				"freshHours": { "avg": 8 },
+				"transitionHours": { "avg": 0.01 },
+				"transitionedStack": { "type": "item", "code": "lifewayscacao:cacaobutter-liquid-cold" },
+				"transitionRatio": 0.1
+			}
+        ]
+    },
+
+	"guiTransform": {
+		"translation": { "x": 0, "y": 1, "z": 0 },
+		"rotation": { "x": 123, "y": -33, "z": -13 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 1.4
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 25, "y": 157, "z": -5 }
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.5, "y": -1, "z": -1.4 }
+	}
+}

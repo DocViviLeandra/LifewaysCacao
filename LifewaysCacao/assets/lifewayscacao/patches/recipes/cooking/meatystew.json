@@ -26,9 +26,17 @@
         "value": { "type": "item", "code": "lifewayscacao:cacaomucilage-*", "shapeElement": "bowl/fruit 1/*" }
     },
     {
+        // Cacao nibs topping
         "file": "game:recipes/cooking/meatystew",
         "op": "AddMerge",
         "path": "/ingredients/8/validStacks/-",
         "value": { "type": "item", "code": "lifewayscacao:cacaochunks-*", "shapeElement": "bowl/topping/*"}
+    },
+    {
+        // Chocolate topping
+        "file": "game:recipes/cooking/meatystew",
+        "op": "AddMerge",
+        "path": "/ingredients/8/validStacks/-",
+        "value": { "type": "item", "code": "lifewayscacao:cacaotablet-*", "shapeElement": "bowl/topping/*"}
     }
 ]

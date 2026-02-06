@@ -12,6 +12,8 @@
 
     "lifewayscacao:item-cacaochunks-natural-pure-grainy": "Cacao nibs",
 
+    "lifewayscacao:item-cacaotablet-natural-pure-grainy": "Cacao paste tablet",
+
     "lifewayscacao:item-cacaomucilage-separated": "Cacao mucilage",
 
     "lifewayscacao:item-juiceportion-cacao": "Cacao juice",
@@ -37,6 +39,8 @@
 
     "lifewayscacao:recipeingredient-item-cacaochunks-natural-pure-grainy": "Cacao nibs",
 
+    "lifewayscacao:recipeingredient-item-cacaotablet-natural-pure-grainy": "Chocolate", // TODO: rename this when other chocolate types are added
+
     "lifewayscacao:recipeingredient-item-cacaobeans-pulpy-insturmentalcase": "pulpy cacao beans",
     "lifewayscacao:recipeingredient-item-cacaobeans-raw-insturmentalcase": "raw cacao beans",
     "lifewayscacao:recipeingredient-item-cacaobeans-fermented-insturmentalcase": "fermented cacaobeans",
@@ -46,27 +50,39 @@
 
     "lifewayscacao:recipeingredient-item-cacaochunks-natural-pure-grainy-insturmentalcase": "cacao nibs",
 
-    "lifewayscacao:recipeingredient-item-cacaochunks-natural-pure-grainy-topping": "Ground cacao nibs",
+    "lifewayscacao:recipeingredient-item-cacaotablet-natural-pure-grainy-insturmentalcase": "chocolate", // TODO: rename this when other chocolate types are added
+
+    "lifewayscacao:recipeingredient-item-cacaochunks-natural-pure-grainy-topping": "ground cacao nibs",
+
+    "lifewayscacao:recipeingredient-item-cacaotablet-natural-pure-grainy-topping": "melted chocolate", // TODO: rename this when other chocolate types are added
 
     "pie-single-lifewayscacao:cacaobeans-dried-raw": "Cacao bean pie (raw)",
     "pie-single-lifewayscacao:cacaobeans-fermented-raw": "Cacao bean pie (raw)",
 
     "pie-single-lifewayscacao:cacaochunks-natural-pure-grainy-raw": "Cacao nib pie (raw)",
 
+    "pie-single-lifewayscacao:cacaotablet-natural-pure-grainy-raw": "Chocolate pie (raw)", // TODO: rename this when other chocolate types are added
+
     "pie-single-lifewayscacao:cacaobeans-dried-partbaked": "Cacao bean pie (part-baked)",
     "pie-single-lifewayscacao:cacaobeans-fermented-partbaked": "Cacao bean pie (part-baked)",
 
     "pie-single-lifewayscacao:cacaochunks-natural-pure-grainy-partbaked": "Cacao nib pie (part-baked)",
+
+    "pie-single-lifewayscacao:cacaotablet-natural-pure-grainy-partbaked": "Chocolate pie (raw)", // TODO: rename this when other chocolate types are added
 
     "pie-single-lifewayscacao:cacaobeans-dried-perfect": "Cacao bean pie",
     "pie-single-lifewayscacao:cacaobeans-fermented-perfect": "Cacao bean pie",
 
     "pie-single-lifewayscacao:cacaochunks-natural-pure-grainy-perfect": "Cacao nib pie",
 
+    "pie-single-lifewayscacao:cacaotablet-natural-pure-grainy-perfect": "Chocolate pie", // TODO: rename this when other chocolate types are added
+
     "pie-single-lifewayscacao:cacaobeans-dried-charred": "Cacao bean pie (charred)",
     "pie-single-lifewayscacao:cacaobeans-fermented-charred": "Cacao bean pie (charred)",
 
     "pie-single-lifewayscacao:cacaochunks-natural-pure-grainy-charred": "Cacao nib pie (charred)",
+
+    "pie-single-lifewayscacao:cacaotablet-natural-pure-grainy-charred": "Chocolate pie (charred)", // TODO: rename this when other chocolate types are added
 
     "handbook-category-lifewayscacao:category": "Lifeways: Cacao",
 

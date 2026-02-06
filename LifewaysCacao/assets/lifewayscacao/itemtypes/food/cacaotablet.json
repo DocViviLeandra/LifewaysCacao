@@ -1,0 +1,84 @@
+{
+    "code": "cacaotablet",
+
+    "variantgroups": [
+        //  Whether the Dutch process was performed.
+        { "code": "process", "states": [ "natural" ] }, // TODO: add "alkalized" and "ultra-alkalized".
+        //  Basic chocolate types.
+        { "code": "type", "states": [ "pure" ] }, // TODO: add "dark", "milk", "white", "compounddark", and "compoundmilk"
+        //  How finely the chocolate was ground/mixed/conched, and whether it was tempered.
+        { "code": "consistency", "states": [ "grainy" ] }, // TODO: add "smooth" and "tempered".
+    ],
+    "skipVariants": [ // TODO: Prevent "compound" and "tempered" combos
+
+    ],
+
+    "shape": { "base": "item/food/cacaotablet" },
+    "textures":{ 
+        "cacao": { "base": "item/food/cacaotablet/{process}-{type}-{consistency}"},
+    },
+
+    // TODO: Actually fully define this at some point
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "Stacking",
+                "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 },
+            }
+        }
+    ],
+
+    "attributes": {
+        // "inContainerTexture": { "base": "item/food/cacaochunks/cacao" },
+        "foodTags": [ "chocolate", "{type}-chocolate" ],
+        "handbook": {
+			"groupBy": ["cacaotablet-*"]
+		},
+        "nutritionPropsWhenInMealByType": {
+            "*": { "satiety": 240, "foodcategory": "Protein" }
+        },
+        "eatHealthEffectDurationSec": 10,
+		"eatHealthEffectTicks": 10,
+        "inPiePropertiesByType": {
+            "*": { "texture": "block/food/cacao/fill-{process}-{type}-{consistency}", "partType": "Filling", "allowMixing": false }
+        }
+    },
+
+    "creativeinventory": { "general": ["*"], "items": ["*"] },
+    "maxstacksize": 64,
+    "materialDensity": 1300,
+
+    "nutritionPropsByType": {
+        "*": { "satiety": 240, "foodcategory": "Protein" },
+    },
+
+    "transitionablePropsByType": {
+        "*": [{
+            "type": "Perish",
+	        "freshHours": { "avg": 2160 },
+            "transitionhours": { "avg": 224 },
+            "transitionedStack": { "type": "item", "code": "game:rot" },
+            "transitionRatio": 0.25
+        }]
+    },
+
+    guiTransform: {
+		translation: { x: 2, y: 6, z: 0 },
+		rotation: { x: 145, y: -152, z: 4 },
+		origin: { x: 0.5, y: 0.05, z: 0.5 },
+		scale: 3.95
+	},
+    groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 1, y: 1, z: 1 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.77
+	},
+    tpHandTransform: {
+		translation: { x: -1, y: 0, z: -0.8 },
+		rotation: { x: 3, y: 4, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.65
+	}
+}

@@ -29,7 +29,7 @@
 			"containable": true,
 			"itemsPerLitre": 100,
 			"texture": { 
-				"base": "item/food/cacaochunks/fill-natural-raw-grainy",
+				"base": "item/food/cacaochunks/fill-natural-pure-grainy",
 				"alphaByType": {
 					"*" : 255 
 				}				

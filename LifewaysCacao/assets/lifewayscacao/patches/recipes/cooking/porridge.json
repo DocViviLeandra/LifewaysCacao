@@ -12,9 +12,16 @@
         "value": { "type": "item", "code": "lifewayscacao:cacaomucilage-*", "shapeElement": "bowl/fruit 2/*" }
     },
     {
+        // Cacao nibs topping
         "file": "game:recipes/cooking/porridge",
         "op": "AddMerge",
         "path": "/ingredients/5/validStacks/-",
         "value": { "type": "item", "code": "lifewayscacao:cacaochunks-*", "shapeElement": "bowl/topping/*" }
+    },
+    {
+        "file": "game:recipes/cooking/porridge",
+        "op": "AddMerge",
+        "path": "/ingredients/5/validStacks/-",
+        "value": { "type": "item", "code": "lifewayscacao:cacaotablet-*", "shapeElement": "bowl/topping/*" }
     },
 ]

@@ -1,0 +1,14 @@
+{
+    "code": "cacaotablet",
+    "ingredientPattern": "CC",
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "ingredients": {
+        "C": {
+            "type": "item",
+            "code": "cacaochunks-natural-pure-grainy",
+        }
+    },
+    "output": { "type": "item", "code": "cacaotablet-natural-pure-grainy" }
+}
