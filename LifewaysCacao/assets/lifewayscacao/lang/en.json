@@ -10,7 +10,7 @@
     "lifewayscacao:item-cacaobeans-fermented": "Fermented cacao beans",
     "lifewayscacao:item-cacaobeans-dried": "Dried cacao beans",
 
-    "lifewayscacao:item-cacaochunks-natural-pure-grainy": "Chocolate chunks", // Change to "Grainy pure chocolate chunks" when more types are added
+    "lifewayscacao:item-cacaochunks-natural-pure-grainy": "Cacao nibs",
 
     "lifewayscacao:item-cacaomucilage-separated": "Cacao mucilage",
 
@@ -35,7 +35,7 @@
 
     "lifewayscacao:recipeingredient-item-cacaomucilage-separated": "Cacao mucilage",
 
-    "lifewayscacao:recipeingredient-item-cacaochunks-natural-pure-grainy": "Chocolate",
+    "lifewayscacao:recipeingredient-item-cacaochunks-natural-pure-grainy": "Cacao nibs",
 
     "lifewayscacao:recipeingredient-item-cacaobeans-pulpy-insturmentalcase": "pulpy cacao beans",
     "lifewayscacao:recipeingredient-item-cacaobeans-raw-insturmentalcase": "raw cacao beans",
@@ -44,34 +44,34 @@
 
     "lifewayscacao:recipeingredient-item-cacaomucilage-separated-insturmentalcase": "cacao mucilage",
 
-    "lifewayscacao:recipeingredient-item-cacaochunks-natural-pure-grainy-insturmentalcase": "chocolate",
+    "lifewayscacao:recipeingredient-item-cacaochunks-natural-pure-grainy-insturmentalcase": "cacao nibs",
 
-    "lifewayscacao:recipeingredient-item-cacaochunks-natural-pure-grainy-topping": "Chocolate",
+    "lifewayscacao:recipeingredient-item-cacaochunks-natural-pure-grainy-topping": "Ground cacao nibs",
 
     "pie-single-lifewayscacao:cacaobeans-dried-raw": "Cacao bean pie (raw)",
     "pie-single-lifewayscacao:cacaobeans-fermented-raw": "Cacao bean pie (raw)",
 
-    "pie-single-lifewayscacao:cacaochunks-natural-pure-grainy-raw": "Chocolate pie (raw)",
+    "pie-single-lifewayscacao:cacaochunks-natural-pure-grainy-raw": "Cacao nib pie (raw)",
 
     "pie-single-lifewayscacao:cacaobeans-dried-partbaked": "Cacao bean pie (part-baked)",
     "pie-single-lifewayscacao:cacaobeans-fermented-partbaked": "Cacao bean pie (part-baked)",
 
-    "pie-single-lifewayscacao:cacaochunks-natural-pure-grainy-partbaked": "Chocolate pie (part-baked)",
+    "pie-single-lifewayscacao:cacaochunks-natural-pure-grainy-partbaked": "Cacao nib pie (part-baked)",
 
     "pie-single-lifewayscacao:cacaobeans-dried-perfect": "Cacao bean pie",
     "pie-single-lifewayscacao:cacaobeans-fermented-perfect": "Cacao bean pie",
 
-    "pie-single-lifewayscacao:cacaochunks-natural-pure-grainy-perfect": "Chocolate pie",
+    "pie-single-lifewayscacao:cacaochunks-natural-pure-grainy-perfect": "Cacao nib pie",
 
     "pie-single-lifewayscacao:cacaobeans-dried-charred": "Cacao bean pie (charred)",
     "pie-single-lifewayscacao:cacaobeans-fermented-charred": "Cacao bean pie (charred)",
 
-    "pie-single-lifewayscacao:cacaochunks-natural-pure-grainy-charred": "Chocolate pie (charred)",
+    "pie-single-lifewayscacao:cacaochunks-natural-pure-grainy-charred": "Cacao nib pie (charred)",
 
     "handbook-category-lifewayscacao:category": "Lifeways: Cacao",
 
     "lifewayscacao:cacao101-title": "Cacao 101: How I Learned to Stop Worrying and Love Chocolate",
-    "lifewayscacao:cacao101-text": "<strong>Cacao 101</strong><br><i>Did you know making chocolate has a lot of steps?</i><br><br><strong>Obtaining Cacao</strong><br>Cacao comes from the cacao tree (obviously), which you can find in very warm and very rainy climates. They won't give you anything immediately useable like other fruit trees, though - instead, they grow big, hard <a href=\"handbook://item-lifewayscacao:cacaopod-whole\">cacao pods</a>, which you'll have to crack open by holding them in your hand, then pressing and holding <hk>rightmouse</hk>, which will give you <a href=\"handbook://item-lifewayscacao:cacaobeans-pulpy\">pulpy cacao beans</a>.<br><br><strong>Processing Those Beans</strong><br>The <a href=\"handbook://item-lifewayscacao:cacaobeans-pulpy\">pulpy cacao beans</a> you get from cracking open a pod aren't very useful in and of themselves - you can either eat the mucilage off them the same way you'd eat any other food, in which case you'll spit out the <a href=\"handbook://item-lifewayscacao:cacaobeans-raw\">raw cacao beans</a>.<br><br>Or, you can put them in your crafting grid to separate the mucilage manually, giving you <a href=\"handbook://item-lifewayscacao:cacaobmucilage-separated\">cacao mucilage</a> and <a href=\"handbook://item-lifewayscacao:cacaobeans-raw\">raw cacao beans</a>. Once separated, cacao mucilage is like any other fruit in the game - you can eat it, use it in meals, press it in the fruitpress, etc.<br><br>The beans, separated from the mucilage, aren't very useful on their own - they're bad-tasting and only give a small amount of protein nutrition. In order to make them more appetizing and nutritious, we need to ferment them!<br><br><strong>Fermenting Cacao Beans</strong><br>Cacao beans don't take much to ferment - the mucilage is a good enough fermentation base! Either put the <a href=\"handbook://item-lifewayscacao:cacaobeans-pulpy\">pulpy cacao beans</a> in a <a href=\"handbook://block-barrel\">barrel</a> by themselves, or add the <a href=\"handbook://item-lifewayscacao:cacaobmucilage-separated\">cacao mucilage</a> and then the <a href=\"handbook://item-lifewayscacao:cacaobeans-raw\">raw cacao beans</a>, in a 1:4 ratio - the latter method is more efficient, but requires additional work!<br><br>Then, simply seal the barrel and wait.<br><br><strong>Drying Beans</strong><br>The <a href=\"handbook://item-lifewayscacao:cacaobeans-fermented\">fermented cacao beans</a> are kinda gross, and prone to spoiling. In order to make them last longer, you can dry them out, either by leaving them in the open in cool, dry conditions, or roasting them over a fire, getting you <a href=\"handbook://item-lifewayscacao:cacaobeans-dried\">dried cacao beans</a>!<br><br><strong>Making Chocolate</strong><br>You can make <a href=\"handbook://item-lifewayscacao:cacaochunks-natural-pure-grainy\">chocolate chunks</a> by grinding those dried cacao beans in a quern, which really brings out the flavor and nutrition, and gives a small healing effect! More advanced chocolate-making to come in future updates.",
+    "lifewayscacao:cacao101-text": "<strong>Cacao 101</strong><br><i>Did you know making chocolate has a lot of steps?</i><br><br><strong>Obtaining Cacao</strong><br>Cacao comes from the cacao tree (obviously), which you can find in very warm and very rainy climates. They won't give you anything immediately useable like other fruit trees, though - instead, they grow big, hard <a href=\"handbook://item-lifewayscacao:cacaopod-whole\">cacao pods</a>, which you'll have to crack open by holding them in your hand, then pressing and holding <hk>rightmouse</hk>, which will give you <a href=\"handbook://item-lifewayscacao:cacaobeans-pulpy\">pulpy cacao beans</a>.<br><br><strong>Processing Those Beans</strong><br>The <a href=\"handbook://item-lifewayscacao:cacaobeans-pulpy\">pulpy cacao beans</a> you get from cracking open a pod aren't very useful in and of themselves - you can either eat the mucilage off them the same way you'd eat any other food, in which case you'll spit out the <a href=\"handbook://item-lifewayscacao:cacaobeans-raw\">raw cacao beans</a>.<br><br>Or, you can put them in your crafting grid to separate the mucilage manually, giving you <a href=\"handbook://item-lifewayscacao:cacaobmucilage-separated\">cacao mucilage</a> and <a href=\"handbook://item-lifewayscacao:cacaobeans-raw\">raw cacao beans</a>. Once separated, cacao mucilage is like any other fruit in the game - you can eat it, use it in meals, press it in the fruitpress, etc.<br><br>The beans, separated from the mucilage, aren't very useful on their own - they're bad-tasting and only give a small amount of protein nutrition. In order to make them more appetizing and nutritious, we need to ferment them!<br><br><strong>Fermenting Cacao Beans</strong><br>Cacao beans don't take much to ferment - the mucilage is a good enough fermentation base! Either put the <a href=\"handbook://item-lifewayscacao:cacaobeans-pulpy\">pulpy cacao beans</a> in a <a href=\"handbook://block-barrel\">barrel</a> by themselves, or add the <a href=\"handbook://item-lifewayscacao:cacaobmucilage-separated\">cacao mucilage</a> and then the <a href=\"handbook://item-lifewayscacao:cacaobeans-raw\">raw cacao beans</a>, in a 1:4 ratio - the latter method is more efficient, but requires additional work!<br><br>Then, simply seal the barrel and wait.<br><br><strong>Drying Beans</strong><br>The <a href=\"handbook://item-lifewayscacao:cacaobeans-fermented\">fermented cacao beans</a> are kinda gross, and prone to spoiling. In order to make them last longer, you can dry them out, either by leaving them in the open in cool, dry conditions, or roasting them over a fire, getting you <a href=\"handbook://item-lifewayscacao:cacaobeans-dried\">dried cacao beans</a>!<br><br><strong>Making Chocolate</strong><br>You can make <a href=\"handbook://item-lifewayscacao:cacaochunks-natural-pure-grainy\">cacao nibs</a> by grinding those dried cacao beans in a quern, which really brings out the flavor and nutrition, and gives a small healing effect! More advanced chocolate-making to come in future updates.",
 
     "lifewayscacao:item-handbooktitle-cacaopod": "Processing",
     "lifewayscacao:item-handbooktext-cacaopod": "In order to crack open a cacao pod and extract the <a href=\"handbook://item-lifewayscacao:cacaobeans-pulpy\">pulpy cacao beans</a> inside, simply hold it in your hand and press and hold <hk>rightmouse</hk>.",
